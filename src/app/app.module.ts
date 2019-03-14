@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 //router modules
 import { RouterModule,Routes} from '@angular/router';
+import { Injectable } from '@angular/core';
+import { Headers, Http, Response, HttpModules, URLSearchParams, RequestOptions } from '@angular/Https';
+import { Observable } from 'rxjs/Observable';
 
 
 
